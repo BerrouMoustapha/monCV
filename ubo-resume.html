@@ -14,6 +14,7 @@
 	<![endif]-->
 	
 			<link rel="stylesheet" type="text/css" href="css/resume.css">
+			<script type="text/javascript" src="js/script.js"></script>
 			<link="https://maxcdn.boostrapcdn.com/font-awesome/4.4.0/css/fontawesome.min.css">
 </head>
 <body>
@@ -31,7 +32,8 @@
 		</header>
 
 		<section>
-			<article>
+<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('description')" value="Description" /> 
+			<article id="description" class="Element">
 					Etudiant en 2ème année Master DOSI Développement lOgiciel des Systèmes d'Information à l'Université de Bretagne Occidentale (UBO) de Brest et Élève ingénieur à l'Ecole Nationale des Sciences Appliquées d'Agadir en génie Informatique, je suis à la recherche d'un stage pour mon Projet de Fin d’Etude PFE.
 					Au cours de ma formation j'ai appris autant des choses sur le domaine informatique (voir mes compétences) et jai eu lopportunité deffectuer des stages en plusieurs profils, qui ont renforcé mon intérêt pour les technologies informatiques et la réalisation de projets dans la totalité de ces perspectives.
 					Jenvisage une carrière dans laquelle je serais amené à mener des projets informatiques denvergure importante...
@@ -39,9 +41,9 @@
 					J'ai pris des responsabilités qui m'ont permis de vivre des expériences importantes.
 					Vous trouvez ci-dessous ( dans mes compétences et mon parcours ) à titre d'exemples ce que je pourrais vous apporter.
 			</article>
-		</section>
-			<section>
-				<h3>Experience</h3>
+		</section>	
+		<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Experience')" value="Experience" /> 
+			<section id="Experience" class="Element">
 					<dt>
 						<code> Conseil de l'UNEM </code>
 						<dd>Président du Conseil de l'Union des Etudiants et Stagiaires Mauritaniens au Maroc</dd>
@@ -62,11 +64,11 @@
 						<code>AGRINEQ</code>
 						<dd>Stage d'initiation 1 </dd>
 					</dt>
-
+						
 			</section>
-
-			<section>
-				<h3>Formation</h3>
+<br>
+		<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Formation')" value="Formation" /> 
+			<section id="Formation" class="Element">
 					<dt>
 						<code>Université de Bretagne Occidentale</code>
 						<dd>Master 2 (M2), Développement lOgiciel des Systèmes d'Information · (2018 - 2019)</dd>
@@ -76,9 +78,11 @@
 						<code>Ecole Nationale des sciences appliquées Agadir-ENSA</code>
 						<dd>Élève Ingénieur Génie Informatique, Ingénierie informatique · (2014 - 2019)</dd>
 					</dt>
+					
 			</section>
-			<section>
-				<h3>Langues</h3>
+<br>
+		<input type="button" name="Details" class="lienAfficher" onclick="afficherMasquer('Langues')" value="Langues" /> 
+			<section id="Langues" class="Element">
 					<dt>
 						<code>Français</code>
 						<dd>Bilingue ou langue natale</dd>

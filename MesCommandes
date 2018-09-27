@@ -1,0 +1,1000 @@
+  440  more TriTest.java 
+  441  cd
+  442  cd software/eclipse/
+  443  ./eclipse 
+  444  echo $ANT
+  445  ant
+  446  cp Téléchargements/Tetris/ivy.xml workspace/PIC/Tri/
+  447  cp Téléchargements/Tetris/ivy.xml workspace/PIC/fr.isen.Tetris/
+  448  ls workspace/PIC/fr.isen.Tetris/
+  449  ls
+  450  cp -rf Téléchargements/Tetris workspace/PIC/
+  451  d Téléchargements/Tetris
+  452  ls
+  453  cd Téléchargements/
+  454  ls
+  455  cd Tetris/
+  456  ls
+  457  cd build/
+  458  ls
+  459  cd ../b
+  460  cd ../bin/
+  461  jar -x Tetris.jar 
+  462  jar -cp Tetris.jar 
+  463  ls
+  464  ls lib/
+  465  jar -cp Tetris.jar fr lib
+  466  jar -cp Tetris.jar fr/ lib/
+  467  jar -cp Tetris.jar fr/isen/tetris/* lib/
+  468  jar -cp Tetris.jar fr/isen/tetris/* lib/ fr/isen/tetris/Tetris.class 
+  469  jar -cp Tetris.jar  lib/ fr/isen/tetris/Tetris.class 
+  470  javac -d ./bin/ -classpath  lib/commons-lang3-3.5.jar src/fr/isen/tetris/*.java
+  471  cd ..
+  472  javac -d ./bin/ -classpath  lib/*.jar src/fr/isen/tetris/*.java
+  473  javac -d ./bin/ -classpath  lib/commons-lang3-3.5.jar src/fr/isen/tetris/*.java
+  474  jar -cf Tetris.jar  lib/ fr/isen/tetris/Tetris.class 
+  475  jar -cf Tetris.jar  bin/lib/ bin/fr/isen/tetris/Tetris.class 
+  476  java -jar Tetris.jar 
+  477  ls
+  478  java -cp Tetris.jar bin.fr.isen.tetris.Tetris 
+  479  cd bin/
+  480  jar -cf Tetris.jar  lib/ fr/isen/tetris/Tetris.class 
+  481  java -cp Tetris.jar fr.isen.tetris.Tetris 
+  482  ls
+  483  java -cp "Tetris.jar:bin/ fr.isen.tetris.Tetris 
+  484  ls lib/
+  485  java -cp "Tetris.jar:bin/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  486  java -cp "Tetris.jar:bin/commons-lang3-3.5.jar" -jar fr.isen.tetris.Tetris 
+  487  java -cp "Tetris.jar:lib/commons-lang3-3.5.jar" fr
+  488  java -cp "Tetris.jar:bin/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  489  java -cp "Tetris.jar:lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  490  jar -cf Tetris.jar fr/isen/tetris/Tetris.class 
+  491  java -cp "Tetris.jar:lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  492  jar -cf Tetris.jar fr/isen/tetris/Tetris.class 
+  493  java -cp "Tetris.jar:lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  494  java
+  495  jar -cf Tetris.jar fr/isen/tetris/Tetris.class 
+  496  java -cp "Tetris.jar:lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  497  cd ..
+  498  java -d bin/ -classpath lib/commons-lang3-3.5.jar src/fr/isen/tetris/*.java
+  499  javac -d bin/ -classpath lib/commons-lang3-3.5.jar src/fr/isen/tetris/*.java
+  500  cd bin/
+  501  cd ..
+  502  rm -rf bin/*
+  503  javac -d bin/ -classpath lib/commons-lang3-3.5.jar src/fr/isen/tetris/*.java
+  504  cd bin/
+  505  ls
+  506  ls fr/isen/tetris/
+  507  jar -cf Tetris.jar fr/isen/tetris/*.class
+  508  java -cp "Tetris.jar:lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  509  ls
+  510  java -cp "Tetris.jar:../lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  511  cd ..
+  512  history
+  513  ls
+  514  cd ..
+  515  cp -rf TetrisAnt
+  516  cp -rf Tetris TetrisAnt
+  517  cd Tetris
+  518  cd ../TetrisAnt/
+  519  ls
+  520  rm '${build}'/
+  521  rm -rf  '${build}'/
+  522  ls
+  523  rm build.xml 
+  524  ls
+  525  rm ivy.xml 
+  526  ls
+  527  ls *
+  528  ls
+  529  ls *
+  530  ls
+  531  rm Tetris.jar 
+  532  ls
+  533  ls *
+  534  ls
+  535  ls dist/
+  536  rm -rf dist/
+  537  ls
+  538  ls b
+  539  ls build/
+  540  rm -rf build/
+  541  ls
+  542  ls lib/
+  543  rm lib/hamcrest-core-1.3.jar 
+  544  rm lib/junit-4.12.jar 
+  545  ls
+  546  ls *
+  547  rm bin/*
+  548  rm -rf  bin/*
+  549  ls
+  550  javac -d bin/ -classpath lib/commons-lang3-3.5.jar src/fr/isen/tetris/*.java
+  551  cd bin/
+  552  jar -cf Tetris.jar fr/isen/tetris/*.class
+  553  java -cp "Tetris.jar:../lib/commons-lang3-3.5.jar" fr.isen.tetris.Tetris 
+  554  cd ..
+  555  rm -rf  bin/*
+  556  ls
+  557  cd src/
+  558  ls
+  559  cd fr/
+  560  ls
+  561  cd isen/tetris/
+  562  ls
+  563  grep isen **
+  564  cd ../../..
+  565  cd ..
+  566  cd -
+  567  ls
+  568  cd fr/isen/tetris/
+  569  vi Board.java 
+  570  nano Board.java 
+  571  ls
+  572  nano Constants.java 
+  573  nano Shape.java 
+  574  nano Tetr
+  575  nano Tetris.java 
+  576  nano Tetrominoes.java 
+  577  cd ../../../..
+  578  ls
+  579  rm bin/*
+  580  ls bin/
+  581  cd src/fr/
+  582  ls
+  583  mv isen/ ubo/
+  584  cd ../..
+  585  javac -d bin/ -classpath lib/commons-lang3-3.5.jar src/fr/ubo/tetris/*.java
+  586  jar -cf Tetris.jar fr/ubo/tetris/*.class
+  587  ls bin/fr/ubo/tetris/
+  588  cd bin/
+  589  jar -cf Tetris.jar fr/ubo/tetris/*.class
+  590  java -cp "Tetris.jar:../lib/commons-lang3-3.5.jar" fr.ubo.tetris.Tetris 
+  591  cd ??
+  592  cd ..
+  593  ls
+  594  rm Tetris.jar 
+  595  rm -rf bin/*
+  596  ls
+  597  cd ..
+  598  ls
+  599  cp -rf TetrisAnt ../workspace/PIC/
+  600  cd 
+  601  cd workspace/PIC/TetrisAnt/
+  602  ls
+  603  ls lib/
+  604  ls b
+  605  ls bin/
+  606  ls bin/fr/ubo/tetris/
+  607  ls dist/
+  608  cd dist/
+  609  java -cp "Tetris.jar:../lib/commons-lang3-3.5.jar" fr.ubo.tetris.Tetris 
+  610  ls 
+  611  ls
+  612  cd ..
+  613  ls
+  614  ls dist/
+  615  more dist/MANIFEST.MF 
+  616  cd dist/
+  617  ls
+  618  java -jar Tetris.jar 
+  619  ls
+  620  cd ..
+  621  ls
+  622  ls *
+  623  cd dist/
+  624  ls
+  625  java -jar Tetris.jar 
+  626  ls
+  627  cd ..
+  628  cd dist/
+  629  ls
+  630  java -jar Tetris.jar 
+  631  cd ..
+  632  cd -
+  633  cd dist/
+  634  java -jar Tetris.jar 
+  635  cd ../dist
+  636  java -jar Tetris.jar 
+  637  cd ..
+  638  rm -rf lib/
+  639  cd software/
+  640  cd eclipse/
+  641  ./eclipse 
+  642  cd workspace/
+  643  ls
+  644  cd PIC/
+  645  ls
+  646  cd Tetris
+  647  cd ../TetrisAnt/
+  648  ls
+  649  mvn sonar:sonar   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=263a35d7e06b80cd8745e4e749deb440d7046094
+  650  sudo apt install mvn
+  651  mvn sonar:sonar   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=263a35d7e06b80cd8745e4e749deb440d7046094
+  652  sudo apt install maven
+  653  mvn sonar:sonar   -Dsonar.host.url=http://localhost:9000   -Dsonar.login=263a35d7e06b80cd8745e4e749deb440d7046094
+  654  cp Téléchargements/sonarqube-7.3.zip software/
+  655  cd software/
+  656  unzip sonarqube-7.3.zip 
+  657  ls
+  658  cd sonarqube-7.3/
+  659  ls
+  660  cd bin/
+  661  ls
+  662  cd linux-x86-
+  663  cd linux-x86-64/
+  664  ls
+  665  ./sonar.sh console
+  666  sudo apt install doxygen
+  667  cd Téléchargements/
+  668  l
+  669  mv apache-tomcat-8.5.32.tar.gz ../software/
+  670  cd so
+  671  ls
+  672  cd sof
+  673  ls
+  674  cd
+  675  cd software/
+  676  ls
+  677  tar -zxvf apache-tomcat-8.5.32.tar.gz apache-tomcat-8.5.32/
+  678  ls
+  679  cd apache-tomcat-8.5.32/
+  680  ls
+  681  more NOTICE 
+  682  ls
+  683  more RELEASE-NOTES 
+  684  more R
+  685  more RUNNING.txt 
+  686  ls
+  687  cd bin/
+  688  ls
+  689  ./startup.sh 
+  690  ./shutdown.sh 
+  691  cd ..
+  692  ls
+  693  cd webapps/
+  694  ls
+  695  ls examples/
+  696  ls
+  697  cp ~/Téléchargements/jenkins.war .
+  698  ls
+  699  ls manager/
+  700  ls ROOT/
+  701  mkdir jenkins
+  702  mv jenkins.war jenkins
+  703  cd ../bin/
+  704  ./startup.sh 
+  705  ls
+  706  cd -
+  707  ls
+  708  mv jenkins/ ROOT/
+  709  ls
+  710  ls ROOT/
+  711  ls
+  712  ls ROOT/
+  713  more ROOT/index.jsp 
+  714  ls
+  715  ls docs/
+  716  ls
+  717  mv ROOT/jenkins/ .
+  718  ls
+  719  mv jenkins/jenkins.war .
+  720  rmdir jenkins/
+  721  cd ../bin/
+  722  ./shutdown.sh 
+  723  cd -
+  724  ls
+  725  ./startup.sh 
+  726  cd -
+  727  ls
+  728  ls jenkins
+  729  more /home/dosipic/.jenkins/secrets/initialAdminPassword
+  730  htop
+  731  sudo apt install htop
+  732  htop
+  733  sysctl vm.max_map_count
+  734  htop
+  735  sysctl fs.file-max
+  736  ulimit -n
+  737  ulimit -u
+  738  sysctl vm.max_map_count=262144
+  739  sudo sysctl vm.max_map_count=262144
+  740  ulimit -n
+  741  ulimit -n 65536
+  742  sudo ulimit -n 65536
+  743  sudo su
+  744  ls
+  745  ulimit -n
+  746  ulimit -n 65536
+  747  cd -
+  748  ./shutdown.sh 
+  749  cd ../..
+  750  ls
+  751  ls ../Téléchargements/
+  752  cp Téléchargements/TestAPI-9710ac7cd4bc.json workspace/API/src/main/resources/credentials.json
+  753  cd software/
+  754  ls
+  755  sudo apt install gradle
+  756  cd
+  757  cd workspace/
+  758  ls
+  759  mkdir API
+  760  cd API/
+  761  gradle init --type basic
+  762  ls
+  763  mkdir -p src/main/java src/main/resources
+  764  ls
+  765  ls src/main/
+  766  ls
+  767  vi build.gradle 
+  768  touch src/main/java/SheetsQuickStart.java
+  769  vi  src/main/java/SheetsQuickStart.java
+  770  vim  src/main/java/SheetsQuickStart.java
+  771  sudo apt install vim
+  772  vim  src/main/java/SheetsQuickStart.java
+  773  gradle -q run
+  774  ls src/main/java/
+  775  mv src/main/java/SheetsQuickStart.java src/main/java/SheetsQuickstart.java 
+  776  gradle -q run
+  777  vi build.gradle 
+  778  gradle -q run
+  779  ls
+  780  cd Téléchargements/
+  781  ls
+  782  rm TestAPI-9710ac7cd4bc.json 
+  783  ls
+  784  rm artifacts.jar artifacts.xml.xz content.xml.xz jenkins.war p2.index 
+  785  ls
+  786  rm content.jar 
+  787  rm TetrisSolution.zip 
+  788  ls
+  789  ls *
+  790  rm -rf features/ plugins/
+  791  ls
+  792  rm -rf subclipse/
+  793  ls
+  794  clear
+  795  ls
+  796  ls *
+  797  rm -rf TetrisAnt
+  798  ls
+  799  ls ù
+  800  ls *
+  801  rm -rf tri/
+  802  s
+  803  ls
+  804  rm -rf Tetris
+  805  ls
+  806  unzip TetrisAnt.zip 
+  807  ls
+  808  ls TetrisAnt
+  809  ls TetrisAnt/*
+  810  ls TetrisAnt/*/*
+  811  ls TetrisAnt/*/*/*
+  812  ls TetrisAnt/*/*/*/*
+  813  ls
+  814  rm -rf TetrisAnt
+  815  ls
+  816  cd 
+  817  cd software/
+  818  ls
+  819  rm -rf apache-tomcat-8.5.32 eclipse gitkraken sonarqube-7.3
+  820  ls
+  821  cd
+  822  cd workspace/
+  823  ls
+  824  rm -rf *
+  825  ls
+  826  cd
+  827  ls
+  828  ls *
+  829  rm -rf pic/tp_git/
+  830  ls
+  831  ls *
+  832  rm -rf snap/eclipse
+  833  ls
+  834  ls .*
+  835  rm -rf .eclipse/ .ssh/* .mozilla/* .m2 .jenkins/ .groovy/ .ivy2/ .gitconfig .gitkraken/
+  836  ls .*
+  837  rm -rf .config/* .gradle/ .gnupg/ .pki .sonar .tooling/
+  838  ls
+  839  ls .*
+  840  rm -rf .java/*
+  841  rm -rf .cache/*
+  842  ls .*
+  843  ls 
+  844  cd software/
+  845  ls 
+  846  cd eclipse-java-photon-R-linux-gtk-x86_64/
+  847  ls
+  848  cd eclipse/
+  849  ls
+  850  cd dropins/
+  851  mkdir subclipse
+  852  wget https://dl.bintray.com/subclipse/releases/subclipse/subclipse-4.2.4.zip
+  853  cd ..
+  854  cd ../../..
+  855  ls 
+  856  cd Téléchargements/
+  857  ls 
+  858  cd ../software/eclipse-java-photon-R-linux-gtk-x86_64/eclipse/dropins/subclipse/
+  859  ls
+  860  cd ..
+  861  ls
+  862  unzip subclipse-4.2.4.zip -d subclipse
+  863  ls subclipse
+  864  ps 
+  865  top
+  866  cd ..
+  867  ls
+  868  ./eclipse 
+  869  ./eclipse --clean
+  870  ./eclipse 
+  871  cd ~
+  872  cd Téléchargements/
+  873  gzip TetrisAnt.zip 
+  874  unzip TetrisAnt.zip 
+  875  mkdir tst
+  876  unzip TetrisAnt.zip tst
+  877  unzip TetrisAnt.zip.gz tst
+  878  cd ../software/eclipse-java-photon-R-linux-gtk-x86_64/eclipse/
+  879  ls
+  880  ./eclipse 
+  881  ls -l
+  882  ls pic/tp_git/TP2/
+  883  cd pic/tp_git/TP2/Developpeur1/
+  884  ssh -v
+  885  cd ~
+  886  ls -x
+  887  ls -a
+  888  vi .ssh/
+  889  cd ../..
+  890  cd ~
+  891  ls pic/tp_git/TP2/remote/
+  892  cd pic/tp_git/TP2/
+  893  ls Developpeur1/
+  894  ls -a Developpeur1/
+  895  cd Developpeur1/TetrisAnt/
+  896  ls
+  897  ll
+  898  ls -al
+  899  more .settings/
+  900  more ../.gitignore 
+  901  cat junit/TEST-fr.isen.tetris.TestShape.xml 
+  902  cd ..
+  903  git status
+  904  cd TetrisAnt/
+  905  git status
+  906  cd ..
+  907  git add TetrisAnt/
+  908  git status 
+  909  git lol
+  910  git log
+  911  git remote -v
+  912  git push origine master 
+  913  git lol
+  914  cd ..
+  915  mkdir Developpeur2
+  916  ll remote/
+  917  cd Developpeur2
+  918  git init
+  919  git remote add origin /home/dosipic/pic/tp_git/TP2/remote/
+  920  git remote -v 
+  921  cd ../Developpeur1
+  922  git remote -v 
+  923  cd ../Developpeur2
+  924  git pull origin master
+  925  ll
+  926  git lol
+  927  cd ../remote/
+  928  git lol
+  929  clair 
+  930  clear
+  931  cd ../Developpeur1
+  932  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+  933  ls
+  934  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+  935  git commit 
+  936  git add TetrisAnt/
+  937  git commit 
+  938  git commit -m "Board modifié"
+  939  git lol
+  940  git push origine master
+  941  git lol
+  942  git remote -v
+  943  ls
+  944  ll .gk
+  945  ll .GOY
+  946  ll .it
+  947  ll .git
+  948  git lol
+  949  git status
+  950  git status -v
+  951  git branch
+  952  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+  953  git commit -a -m "Decommenter Board "
+  954  git push origine master
+  955  git lol
+  956  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+  957  wc TetrisAnt/src/fr/ubo/tetris/Board.java 
+  958  wc -w TetrisAnt/src/fr/ubo/tetris/Board.java 
+  959  wc -l TetrisAnt/src/fr/ubo/tetris/Board.java 
+  960  wc -c TetrisAnt/src/fr/ubo/tetris/Board.java 
+  961  time 
+  962  time user
+  963  time ssh
+  964  time firefox
+  965  which  firefox 
+  966  !
+  967  sudo apt install g++
+  968  which  firefox 
+  969  cd ../Developpeur1
+  970  cd ~
+  971  ps aux
+  972  ps aux | vi testesort |cat testesort
+  973  ps aux | vi testesort |cat
+  974  ps aux > testesort 
+  975  cat testesort 
+  976  vi testesort 
+  977  ps aux | sort -d:"  " -f2 
+  978  ps aux | sort -d"  " -f2 
+  979  ps aux | sort -f2 
+  980  ps aux | sort f2 
+  981  sort --help 
+  982  ps aux | sort +2
+  983  set x = $ ($< $<)
+  984  set x = $< 
+  985  clear
+  986  vi fic 
+  987  grep '[to]' fic 
+  988  grep '[to]'cat fic fic 
+  989  cat fic
+  990  vi fic
+  991  grep -c fic
+  992  grep -c '' fic
+  993  grep -c '^$' fic
+  994  grep -c -v '[a-z A-Z]' fic
+  995  grep '[0-9]' fic
+  996  vi fic 
+  997  grep '[0-9]' fic
+  998  grep /etc/passwd
+  999  ls /etc/passwd
+ 1000  ls -l /etc/passwd
+ 1001  clear
+ 1002  sudo apt-get install csh 
+ 1003  sudo dpkg --configure -a
+ 1004  sudo apt-get install csh 
+ 1005  cd pic/tp_git/TP2/Developpeur2
+ 1006  git lol
+ 1007  git fetch
+ 1008  git status
+ 1009  git lol
+ 1010  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1011  git merge origin/master 
+ 1012  git lol
+ 1013  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1014  git pull origin master 
+ 1015  git lol
+ 1016  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1017  csh
+ 1018  which csh
+ 1019  csh
+ 1020  vi exo.csh
+ 1021  chmod +x exo.csh 
+ 1022  ./exo.csh 
+ 1023  vi exo.csh
+ 1024  ./exo.csh 
+ 1025  ./exo.csh 14 85
+ 1026  vi exo.csh
+ 1027  ./exo.csh 14 85
+ 1028  vi exo.csh
+ 1029  ./exo.csh 14 85
+ 1030  vi q3.csh
+ 1031  chmod +x .q3.csh
+ 1032  chmod +x q3.csh
+ 1033  ./q3.csh 
+ 1034  ./q3.csh 25 6 3
+ 1035  vi q3.csh
+ 1036  vi exo.csh 
+ 1037  ./q3.csh 25 6 3
+ 1038  vi q3.csh
+ 1039  ./q3.csh 25 6 3
+ 1040  vi q3.csh
+ 1041  ./q3.csh 25 6 3
+ 1042  vi q3.csh
+ 1043  ./q3.csh 25 6 3
+ 1044  vi q3.csh
+ 1045  ./q3.csh 25 6 3
+ 1046  mv q3.csh q2.csh
+ 1047  ls
+ 1048  vi q3.csh
+ 1049  ./q3.csh .
+ 1050  chmod +x q3.csh 
+ 1051  ./q3.csh .
+ 1052  ./q3.csh 
+ 1053  pwd
+ 1054  cat .cshr 
+ 1055  ls -a
+ 1056  cat .ssh
+ 1057  cat .bashrc 
+ 1058  tail -10 .bashrc 
+ 1059  tail -10 .bashrc  | wc -c
+ 1060  tail -10 .bashrc  | grep '[a-z A-Z] | wc -c
+ 1061  tail -10 .bashrc  | grep '[a-z A-Z]' | wc -c
+ 1062  tail -10 .bashrc  | grep '[a-z A-Z]' | wc -c
+ 1063  bg
+ 1064  fg 
+ 1065  firefox fg
+ 1066  firefox &
+ 1067  kill 2521
+ 1068  cat /etc/passwd
+ 1069  vi liste 
+ 1070  cut -d -f2 liste 
+ 1071  cut -d; -f2 liste 
+ 1072  cut -d;  liste 
+ 1073  sort -d; -f2 liste 
+ 1074  sort -d; -f2 liste > LISTE
+ 1075  LS 
+ 1076  ls 
+ 1077  grep  liste |sort 
+ 1078  cat liste 
+ 1079  cat -d; -f1 liste 
+ 1080  sort --help 
+ 1081  sort liste 
+ 1082  sort liste +2
+ 1083  cut -d; f1,2 liste | sort  +2
+ 1084  cut liste -d; f1,2 | sort  +2
+ 1085  cut liste -d; -f1,2 | sort  +2
+ 1086  cut liste -d;  | sort  +2
+ 1087  cut liste  | sort  +2
+ 1088  cut liste 
+ 1089  sort liste +2
+ 1090  sort -d; liste +2
+ 1091  sort -d';' liste +2
+ 1092  sort -t:';' liste +2
+ 1093  sort -t';' liste +2
+ 1094  sort -t";" liste +2
+ 1095  sort -t";" liste +1
+ 1096  sort -t";" liste +1 > LISTE
+ 1097  vi LISTE 
+ 1098  sort -t";" liste +1 -tr 'a-z A−Z'
+ 1099  sort -t";" liste +1 -tr'a-z A−Z'
+ 1100  tr 'a-z A-Z' liste 
+ 1101  cat -tr 'a-z A-Z' liste 
+ 1102  cat tr 'a-z A-Z' liste 
+ 1103  vi kkk
+ 1104  grep -v 'coucou' kkk 
+ 1105  grep  'coucou' kkk 
+ 1106  vi q3.csh 
+ 1107  ls 
+ 1108  vi q3.csh 
+ 1109  ls 
+ 1110  vi q3.csh 
+ 1111  clear
+ 1112  ls 
+ 1113  cd pic/tp_git/TP2/Developpeur1
+ 1114  clear
+ 1115  cd ../Developpeur2
+ 1116  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1117  git commit -a -m 'e-3'
+ 1118  git push origin master 
+ 1119  git pull origin master 
+ 1120  git lol
+ 1121  git push origin master 
+ 1122  git lol
+ 1123  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1124  git push origin master 
+ 1125  git pull origin master 
+ 1126  git commit -a -m 'ajouter DEV2 à l @author'
+ 1127  git pull origin master 
+ 1128  meld
+ 1129  vi TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1130  clear
+ 1131  history 
+ 1132  cd Téléchargements/TetrisAntf.zip/TetrisAnt.zip/TetrisAnt/
+ 1133  ls 
+ 1134  clear
+ 1135  cd ..
+ 1136  ls 
+ 1137  locate compilation.sh
+ 1138  sudo updatedb
+ 1139  locate compilation.sh
+ 1140  cd ~
+ 1141  locate compilation.sh
+ 1142  locate comp
+ 1143  locate compila
+ 1144  history 
+ 1145  locate compilat
+ 1146  locate *.sh
+ 1147  locate /*.sh
+ 1148  locate /com.sh
+ 1149  clear
+ 1150  firefox 
+ 1151  cd Téléchargements/
+ 1152  ls 
+ 1153  l
+ 1154  cd
+ 1155  cd pic/wo
+ 1156  ls
+ 1157  cd pic/
+ 1158  s
+ 1159  ls
+ 1160  cd tp_git/TP2/
+ 1161  ls
+ 1162  cd
+ 1163  cd workspace/
+ 1164  ls
+ 1165  cd DEV/PIC/
+ 1166  ls
+ 1167  cd TetrisAnt/
+ 1168  ls
+ 1169  rm '${bin.dir}'/
+ 1170  rm -rf '${bin.dir}'/
+ 1171  ls
+ 1172  ls lib/
+ 1173  ant retrieve 
+ 1174  ls lib/
+ 1175  ant compile
+ 1176  ls b
+ 1177  ls
+ 1178  ls bin/fr/ubo/tetris/
+ 1179  ls
+ 1180  ant compile-test 
+ 1181  ls bin/fr/ubo/tetris/
+ 1182  ls
+ 1183  ant compile-test 
+ 1184  ls bin/fr/ubo/tetris/
+ 1185  cd ..
+ 1186  git status
+ 1187  git commit -a -m "Fin du TP-Ant"
+ 1188  git push origin master 
+ 1189  git status 
+ 1190  clear
+ 1191  git config 
+ 1192  cd Téléchargements/TetrisAntf.zip/TetrisAnt.zip/TetrisAnt/
+ 1193  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1194  ls
+ 1195  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1196  ls bin/fr/ubo/tetris/
+ 1197  cd bin/
+ 1198  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1199  cd ..
+ 1200  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1201  ls
+ 1202  cd bin/
+ 1203  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1204  cd ..
+ 1205  rm -rf bin/
+ 1206  ls
+ 1207  ls b
+ 1208  ls  bin/
+ 1209  LS
+ 1210  ls
+ 1211  ls bin/
+ 1212  ls dist/
+ 1213  cd dist/
+ 1214  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1215  l
+ 1216  cd ..
+ 1217  java -cp "../lib/commons-lang3-3.5.jar:dist/Tetris.jar" fr.ubo.tetris.Tetris
+ 1218  java -cp "lib/commons-lang3-3.5.jar:dist/Tetris.jar" fr.ubo.tetris.Tetris
+ 1219  cd ..
+ 1220  git status
+ 1221  cd TetrisAnt/
+ 1222  ls 
+ 1223  cd ..
+ 1224  cd ~/workspace/DEV/PIC/
+ 1225  ls 
+ 1226  cd ~/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/
+ 1227  git init 
+ 1228  git -v
+ 1229  git --version 
+ 1230  git add
+ 1231  git config --list 
+ 1232  vi .gitignore
+ 1233  git add TetrisAnt/
+ 1234  git status 
+ 1235  git commit -m "Première enregistregistrement "
+ 1236  ls -a
+ 1237  ls TetrisAnt/bin/
+ 1238  ls TetrisAnt/bin/manifest.mf 
+ 1239  ls -l TetrisAnt/bin/manifest.mf 
+ 1240  cat TetrisAnt/bin/manifest.mf 
+ 1241  cd TetrisAnt/
+ 1242  ls -l
+ 1243  ant
+ 1244  cd bin/
+ 1245  cd -
+ 1246  l
+ 1247  l /home/dosipic/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/TetrisAnt/dist
+ 1248  java -jar /home/dosipic/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/TetrisAnt/dist/Tetris.jar 
+ 1249  cd 
+ 1250  cd workspace/DEV/PIC/
+ 1251  git 
+ 1252  git status 
+ 1253  git init 
+ 1254  git status 
+ 1255  ls -l  ~/Téléchargements/TetrisAntf.zip/TetrisAnt.zip
+ 1256  ls -l  ~/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/TetrisAnt/
+ 1257  ls -la  ~/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/TetrisAnt/
+ 1258  ls -la  ~/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/
+ 1259  cat .gitignore
+ 1260  vi .gitignore
+ 1261  cat  ~/Téléchargements/TetrisAntf.zip/TetrisAnt.zip/.gitignore 
+ 1262  vi .gitignore
+ 1263  git add TetrisAnt/
+ 1264  git status 
+ 1265  java -jar TetrisAnt/dist/Tetris.jar 
+ 1266  git commit -m "Première Ajout"
+ 1267  git remote add origin https://github.com/BerrouMoustapha/TetrisAnt.git
+ 1268  git push -u origin master
+ 1269  rm -rf TetrisAnt/lib/
+ 1270  git commit -a -m "TP Apache Ant Question-4"
+ 1271  git push -u origin master
+ 1272  osipic
+ 1273  git pull origin master
+ 1274  clear
+ 1275  git pull origin master
+ 1276  cd TetrisAnt/bin/
+ 1277  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1278  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" ../dist.Tetris
+ 1279  java -cp "../lib/commons-lang3-3.5.jar:../dist/Tetris.jar" fr.ubo.tetris.Tetris
+ 1280  git commit -a -m "fin Partie 4 du TP-Apache Ant "
+ 1281  cd ../..
+ 1282  git add TetrisAnt/
+ 1283  git diff --cached 
+ 1284  cat .git/objects/09/7185c98c88a7400330d8e1c2cc427620467f57 
+ 1285  :q
+ 1286  clear
+ 1287  gitk
+ 1288  GITK
+ 1289  cd pic/tp_git/TP2/Developpeur1
+ 1290  gedit TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1291  vi  TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1292  git commit -a -m 'e-2' 
+ 1293  git push origine master 
+ 1294  git pull origine master 
+ 1295  git lol
+ 1296  vi  TetrisAnt/src/fr/ubo/tetris/Board.java 
+ 1297  git commit -a -m 'ajouter DEV1 à l'@author' 
+ 1298  git commit -a -m 'ajouter DEV1 à @author'
+ 1299  git push origine master 
+ 1300  clear
+ 1301  cd ~
+ 1302  cd Téléchargements/TetrisAnt
+ 1303  cd Téléchargements/T
+ 1304  cd Téléchargements/
+ 1305  ls
+ 1306  cd TetrisAntf.zip/
+ 1307  ls
+ 1308  cd TetrisAntf.zip/
+ 1309  cd TetrisAnt/
+ 1310  ls
+ 1311  java
+ 1312  javac -d bin/ -classpath lib/commons-lang3-3.5.jar src/fr/ubo/tetris/*.java
+ 1313  ls bin/fr/ubo/tetris/
+ 1314  cd bin/
+ 1315  jar -cvf Tetris.jar fr
+ 1316  ls 
+ 1317  java -cp ../lib/commons-lang3-3.5.jar  -cp Tetris.jar fr.ubo.tetris.Tetris
+ 1318  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1319  cat java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1320  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1321  history 
+ 1322  vi compilation.sh
+ 1323  cd ..
+ 1324  mv bin/compilation.sh  
+ 1325  mv bin/compilation.sh  .
+ 1326  ls bin/
+ 1327  ls
+ 1328  ls -l
+ 1329  chmod u+x compilation.sh 
+ 1330  ./compilation.sh 
+ 1331  sh compilation.sh 
+ 1332  ls bin/
+ 1333  cat compilation.sh 
+ 1334  rm -rf bin/*
+ 1335  ls bin/
+ 1336  vi compilation.sh 
+ 1337  history 
+ 1338  vi compilation.sh 
+ 1339  ./compilation.sh 
+ 1340  ls -a
+ 1341  vi compilation.sh 
+ 1342  rm -rf bin/*
+ 1343  ./compilation.sh 
+ 1344  ls ../..
+ 1345  ls ../../..
+ 1346  ls ../..
+ 1347  cd ../../../software/
+ 1348  ls 
+ 1349  cd eclipse-java-photon-R-linux-gtk-x86_64/eclipse/
+ 1350  ls 
+ 1351  ls -a 
+ 1352  ls -al 
+ 1353  eclipse
+ 1354  ./eclipse 
+ 1355  cd ~/Téléchargements/TetrisAntf.zip/TetrisAnt/
+ 1356  ls 
+ 1357  history 
+ 1358  java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris
+ 1359  vi compilation.sh 
+ 1360  ./compilation.sh 
+ 1361  vi compilation.sh 
+ 1362  ./compilation.sh 
+ 1363  vi compilation.sh 
+ 1364  ./compilation.sh 
+ 1365  history java 
+ 1366  history java -cp "../lib/commons-lang3-3.5.jar:Tetris.jar" fr.ubo.tetris.Tetris 
+ 1367  vi compilation.sh 
+ 1368  ./compilation.sh 
+ 1369  cat compilation.sh 
+ 1370  cd ~/software/eclipse-java-photon-R-linux-gtk-x86_64/eclipse/
+ 1371  ls 
+ 1372  eclipse
+ 1373  .eclipse 
+ 1374  ./eclipse
+ 1375  ./eclipse&
+ 1376  cd ~
+ 1377  mkdir AbdelkerimProjet
+ 1378  cd AbdelkerimProjet/
+ 1379  git init 
+ 1380  git clone https://github.com/abdelkarim-Chaara/TPAntApache.git
+ 1381  ls -l 
+ 1382  cd TPAntApache/
+ 1383  ls -a -l
+ 1384  ping -a 127.0.0.1
+ 1385  clean 
+ 1386  git status 
+ 1387  ..
+ 1388  cd ..
+ 1389  git clone 
+ 1390  git clone  -v TPAntApache/
+ 1391  git clean   
+ 1392  git clean   -n
+ 1393  ls 
+ 1394  cd ..
+ 1395  mkdir MonCV
+ 1396  su
+ 1397  su dosipic
+ 1398  su 
+ 1399  su dpinfo
+ 1400  mkdir MonCV
+ 1401  su 
+ 1402  su
+ 1403  su dosipic 
+ 1404  sudo snap install sublime-text --classic
+ 1405  sublime-text.subl 
+ 1406  sudo dpkg --configure -a
+ 1407  sudo apt update 
+ 1408  sudo apt install curl 
+ 1409  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash
+ 1410  sudo apt install npm
+ 1411  curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+ 1412  sudo aptget insall -y nodejs
+ 1413  sudo apt-get insall -y nodejs
+ 1414  sudo apt-get install -y nodejs
+ 1415  npm -v
+ 1416  ls
+ 1417  nodejs -v
+ 1418  node -v
+ 1419  cd Téléchargements/
+ 1420  ls 
+ 1421  sudo apt install ./code_1.27.2-1536736588_amd64.deb 
+ 1422  visudo 
+ 1423  code -v
+ 1424  cd ../MonCV/
+ 1425  git commit -a -m "CSS"
+ 1426  git push origin master 
+ 1427  vi js/feuil.js
+ 1428  mv js/feuil.js  js/script
+ 1429  ls js/
+ 1430  vi ubo-resume.html 
+ 1431  clear
+ 1432  cat mostapha
+ 1433  echo mostapha
+ 1434  echo moustapha
+ 1435  ls 
+ 1436  sudo apt install ./code_1.27.2-1536736588_amd64.deb 
+ 1437  history inst
+ 1438  history 
+ 1439  history > MesCommandes
