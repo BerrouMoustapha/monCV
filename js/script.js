@@ -21,8 +21,6 @@ var x = document.getElementById(id);
     if (targetElement.style.display == "block")
     	targetElement.style.display = "none";
      else 
-
-    	targetElement.style.display = "block";
     // recupere tous les elements ayant pour nom de classe "Element"
     elements = document.getElementsByClassName("Element")
    
@@ -35,4 +33,22 @@ var x = document.getElementById(id);
     if (targetElement.style.display == "none") {
             targetElement.style.display = "" ;
     }
+}
+
+//Question n°: 03
+/*function opacy(id)
+	{  
+ 
+		var di ;
+		di = document.getElementById(id);
+ 		di.style.opacity += 3;
+		di.filters.alpha.opacity+=5;
+ 
+	}
+ */
+ 
+function relanti(id)
+{
+	
+  setTimeout(afficherMasquer(id), 5000); 
 }
